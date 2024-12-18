@@ -34,9 +34,14 @@ namespace SimpleDemo
         public static void Main(string[] args)
         {
             OxyPlotModule.EnsureLoaded();
-            AppBuilder.Configure<App>()
-                .UsePlatformDetect()
-                .StartWithClassicDesktopLifetime(args);
         }
+        //OxyPlotModule.EnsureLoaded();
+        public static AppBuilder BuildAvaloniaApp()
+          => AppBuilder.Configure<App>()
+              .UsePlatformDetect()
+
+              .LogToTrace();
+              
     }
+    
 }

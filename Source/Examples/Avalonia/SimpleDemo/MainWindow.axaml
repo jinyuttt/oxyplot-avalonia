@@ -1,7 +1,7 @@
 ﻿<Window x:Class="SimpleDemo.MainWindow"
         xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-        xmlns:oxy="clr-namespace:OxyPlot.Avalonia;assembly=OxyPlot.Avalonia" 
+        xmlns:oxy="clr-namespace:OxyPlot.Avalonia;assembly=OxyPlot.AvaloniaCore" 
         xmlns:simpleDemo="clr-namespace:SimpleDemo;assembly=SimpleDemo"
         Title="OxyPlot SimpleDemo" Height="480" Width="640">
     <Window.DataContext>
